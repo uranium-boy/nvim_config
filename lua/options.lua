@@ -51,3 +51,12 @@ vim.opt.wrap = false
 
 -- Center the cursor vertically
 vim.opt.scrolloff = 999
+
+-- vim.api.nvim_create_autocmd("BufWritePost", {
+--    pattern = { "*.php" },
+--    callback = function ()
+--        vim.fn.system("browser-sync reload")
+--    end,
+-- })
+
+-- Use <C-h> as jump forward through snippet placeholders in nvim-cmp.lua

@@ -7,7 +7,7 @@ return {
     },
 
     config = function()
-        local telescope = require("telescope")
+--        local telescope = require("telescope")
 
         local builtin = require("telescope.builtin")
 
